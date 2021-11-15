@@ -1,0 +1,19 @@
+.head {
+  height: 50px;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 25px;
+  background-color: burlywood;
+  text-align: center;
+}
+
+.welcome {
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome > img {
+  width: 50%;
+}
