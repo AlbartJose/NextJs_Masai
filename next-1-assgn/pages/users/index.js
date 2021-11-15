@@ -3,7 +3,7 @@ import Link from "next/link";
 const UsersPage = (props) => {
   return (
     <>
-      <h1>Users</h1>
+      <h1>All Users</h1>
       <ul>
         {props.users.map((el) => (
           <Link href={`/users/${el.id}`}>
