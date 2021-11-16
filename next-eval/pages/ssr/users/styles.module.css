@@ -1,0 +1,34 @@
+.maindiv {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: lavender;
+  width: max-content;
+}
+
+.maindiv > div {
+  font-size: 25px;
+  padding: 5px;
+}
+.maindiv > div > div {
+  margin-bottom: 10px;
+}
+
+.allUser {
+  display: flex;
+  font-size: 25px;
+  font-weight: 600;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.allUser > div {
+  padding: 5px;
+}
+
+.allUser > div > button {
+  padding: 5px 10px;
+}
